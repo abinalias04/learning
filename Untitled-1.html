@@ -1,0 +1,208 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Card Example</title>
+    <!-- Bootstrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container py-5">
+        <div class="row">
+            <!-- Card 1 -->
+            <!-- <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="a1.jpg" class="card-img-top" alt="Tour Image 1">
+                    <div class="card-body">
+                        <small class="text-muted"><i class="bi bi-geo-alt"></i> New Jersey</small>
+                        <h5 class="card-title mt-2">90-Minute Cruise & Open Bar in Miami</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <i class="bi bi-star-fill text-warning"></i> 5 (4 Reviews)
+                            </div>
+                        </div>
+                        <p class="mt-2 text-muted">From €500,00</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <small class="text-muted"><i class="bi bi-clock"></i> Full day</small>
+                        <img src="a2kk.jpg" class="rounded-circle" alt="User Image">
+                    </div>
+                </div>
+            </div> --> -->
+
+            <!-- Card 2 -->
+            <!-- <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="a3.jpg" class="card-img-top" alt="Tour Image 2">
+                    <div class="card-body">
+                        <small class="text-muted"><i class="bi bi-geo-alt"></i> San Francisco</small>
+                        <h5 class="card-title mt-2">Boat Tour of San Francisco Bay Fort Lauderdale</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <i class="bi bi-star-fill text-warning"></i> 5 (244 Reviews)
+                            </div>
+                        </div>
+                        <p class="mt-2 text-muted">From €410,00</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <small class="text-muted"><i class="bi bi-clock"></i> 10 hours</small>
+                        <img src="https://via.placeholder.com/30" class="rounded-circle" alt="User Image">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <!-- <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 shadow-sm position-relative">
+                    <span class="badge bg-danger position-absolute top-0 start-0 m-2">Featured -10%</span>
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Tour Image 3">
+                    <div class="card-body">
+                        <small class="text-muted"><i class="bi bi-geo-alt"></i> Nevada</small>
+                        <h5 class="card-title mt-2">Downtown Los Angeles Food Tour Days Lorem Ipsum</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <i class="bi bi-star-fill text-warning"></i> 5 (4 Reviews)
+                            </div>
+                        </div>
+                        <p class="mt-2 text-muted"><s>€500,00</s> From €450,00</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <small class="text-muted"><i class="bi bi-clock"></i> 2-3 days</small>
+                        <img src="https://via.placeholder.com/30" class="rounded-circle" alt="User Image">
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    <!-- </div> --> -->
+
+    <!-- Bootstrap JS (with Popper) -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> --> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carousel with Custom Buttons</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Position the custom buttons on top of the slides */
+    .custom-carousel-control {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 2;
+      background-color: rgba(255, 255, 255, 0.8);
+      border: none;
+      padding: 10px 15px;
+      border-radius: 50%;
+      color: #333;
+    }
+
+    .custom-carousel-control-prev {
+      left: 15px;
+    }
+
+    .custom-carousel-control-next {
+      right: 15px;
+    }
+
+    .custom-carousel-control:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+    }
+
+    /* Adjust carousel item height for better button placement */
+    .carousel-item {
+      min-height: 400px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="customCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <!-- First slide -->
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+            <img src="img1.jpg" class="card-img-top" alt="Card image 1">
+            <div class="card-body">
+              <h5 class="card-title">Downtown Los Angeles Food Tour</h5>
+              <p class="card-text">From €450.00</p>
+              <p class="card-text"><small class="text-muted">2-3 days</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="img2.jpg" class="card-img-top" alt="Card image 2">
+            <div class="card-body">
+              <h5 class="card-title">New York Gossip Girl Sites Tour</h5>
+              <p class="card-text">From €450.00</p>
+              <p class="card-text"><small class="text-muted">4 days</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="img3.jpg" class="card-img-top" alt="Card image 3">
+            <div class="card-body">
+              <h5 class="card-title">Boat Tour of San Francisco Bay</h5>
+              <p class="card-text">From €410.00</p>
+              <p class="card-text"><small class="text-muted">10 hours</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="img4.jpg" class="card-img-top" alt="Card image 4">
+            <div class="card-body">
+              <h5 class="card-title">Moonshine Cabin Escape Game</h5>
+              <p class="card-text">From €610.00</p>
+              <p class="card-text"><small class="text-muted">2 days</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second slide -->
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+            <img src="img5.jpg" class="card-img-top" alt="Card image 5">
+            <div class="card-body">
+              <h5 class="card-title">Another Tour Example</h5>
+              <p class="card-text">From €500.00</p>
+              <p class="card-text"><small class="text-muted">3 days</small></p>
+            </div>
+          </div>
+        </div>
+        <!-- Add more cards here as needed -->
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Custom Carousel controls -->
+  <button class="custom-carousel-control custom-carousel-control-prev" type="button" data-bs-target="#customCarousel" data-bs-slide="prev">
+    &larr;
+  </button>
+  <button class="custom-carousel-control custom-carousel-control-next" type="button" data-bs-target="#customCarousel" data-bs-slide="next">
+    &rarr;
+  </button>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
